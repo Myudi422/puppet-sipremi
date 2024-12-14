@@ -12,12 +12,12 @@
     <script>
         document.getElementById('importButton').addEventListener('click', async () => {
             try {
-                const response = await fetch('http://localhost:3000/import-cookie', {
+                const response = await fetch('http://proses.sipremium.biz.id:3000/import-cookie', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ platform: 'netflix' })
+                    body: JSON.stringify({ platform: 'digitalpanel' })
                 });
 
                 if (response.ok) {

@@ -2,13 +2,11 @@ const mysql = require('mysql2/promise');
 
 // Konfigurasi koneksi pooling
 const pool = mysql.createPool({
-  host: '128.199.68.169',
-  user: 'ccgnimex',
-  password: 'aaaaaaac',
-  database: 'ccgnimex',
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
+  host: '142.132.150.169',
+  user: 'ucxfiycw_sipremium',
+  password: 'igzUR9GrENcvqr@',
+  database: 'ucxfiycw_sipremium',
+  waitForConnections: true,s
 });
 
 // Fungsi untuk mendapatkan koneksi dari pool
